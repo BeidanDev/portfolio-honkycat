@@ -6,6 +6,7 @@ import { AboutMe } from './components/AboutMe';
 import { CenterImage } from './components/CenterImage';
 import { Footer } from './components/Footer';
 import { NavBar } from './components/NavBar';
+import { PaintList } from './components/PaintList';
 
 function App() {
   return (
@@ -13,17 +14,7 @@ function App() {
       <NavBar />
       <CenterImage />
       <AboutMe />
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
-      <h2>Hola Mundo</h2>
+      <PaintList />
       <Footer />
     </>
   );
